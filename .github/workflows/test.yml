@@ -5,4 +5,4 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-      - run: echo "successfull"
+      - run: npm install
