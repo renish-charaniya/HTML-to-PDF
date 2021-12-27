@@ -1,0 +1,18 @@
+{
+  "name": "wordfilereader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docx-tables": "^0.2.0",
+    "extract-word-docs": "^1.1.3",
+    "html-pdf": "^3.0.1",
+    "mammoth": "^1.4.19"
+  }
+}
