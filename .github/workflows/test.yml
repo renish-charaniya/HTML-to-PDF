@@ -5,4 +5,5 @@ jobs:
     name: build
     runs-on: ubuntu-latest
     steps:
-      - run: npm install
+      - uses: actions/checkout@v2
+      - run: tree
