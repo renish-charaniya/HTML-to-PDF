@@ -2,7 +2,8 @@ name: htmltopdf
 on: [push]
 jobs:
   build-project:
+    name: build
     runs-on: ubuntu-latest
     steps:
-      - run: npm i
-      - run: node app.js
+      - name: Install Dependencies 
+      - run: npm install
